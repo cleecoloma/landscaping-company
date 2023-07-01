@@ -34,3 +34,17 @@ body {
 .navbar-right {
   float: right;
 }
+
+.container {
+  position: relative;
+  text-align: left;
+}
+
+#motto {
+  position: absolute;
+  top: 3rem;
+  left: 2rem;
+  background-color: rgba(96, 153, 102, 0.8);
+  border-radius: 8px;
+  color: white;
+}
