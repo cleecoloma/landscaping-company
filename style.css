@@ -50,16 +50,20 @@ body {
   color: white;
 }
 
-.services {
-  display: block;
+#services {
+  display: flex;
   background-color: #e0deca;
-  padding: 3rem 5rem;
+  padding: 2rem 0.5rem;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .service-card {
   width: 25rem;
   background-color: #EDF1D6;
   border-radius: 1rem;
+  margin: 0 2rem 2rem;
 }
 
 .service-img {
