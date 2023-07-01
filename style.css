@@ -1,16 +1,10 @@
 body {
-  margin: 0.5rem 20rem;
-}
-
-main {
-  margin-top: 2.8rem;
+  margin: 0 20rem;
 }
 
 .navbar {
   background-color: #609966;
   overflow: hidden;
-  position: fixed;
-  top: 0;
   z-index: 100;
 }
 
@@ -20,7 +14,6 @@ main {
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
-  font-size: 1rem;
 }
 
 .navbar a:hover {
@@ -42,8 +35,8 @@ main {
 
 #background {
   width: 100%;
-  /* height: 100%;
-  object-fit: fill; */
+  height: 100%;
+  object-fit: fill;
 }
 
 #motto {
