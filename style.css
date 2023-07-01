@@ -2,6 +2,11 @@ body {
   margin: 0.5rem 20rem;
 }
 
+#background {
+  width: 100%;
+  object-fit: fill;
+}
+
 .navbar {
   background-color: #609966;
   overflow: hidden;
