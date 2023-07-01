@@ -31,12 +31,10 @@ body {
 .container {
   position: relative;
   text-align: left;
-}
-
-#background {
-  width: 100%;
-  height: 100%;
-  object-fit: fill;
+  background-image: url(./assets/background.jpg);
+  background-color: #edf1d6; /* Background color used when image is not available */
+  background-size: cover;
+  height: 37.5rem;
 }
 
 #motto {
@@ -59,7 +57,7 @@ body {
 
 .service-card {
   width: 25rem;
-  background-color: #EDF1D6;
+  background-color: #edf1d6;
   border-radius: 1rem;
   margin: 0 2rem 2rem;
 }
