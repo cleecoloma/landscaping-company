@@ -1,0 +1,31 @@
+body {
+  margin: 0.5rem 20rem;
+}
+
+.navbar {
+  background-color: #609966;
+  overflow: hidden;
+  /* display: flex;
+  flex-direction: row; */
+}
+
+.navbar a {
+  float: left;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 1rem;
+}
+
+.navbar a:hover {
+  background-color: #9dc08b;
+}
+
+.navbar a.active {
+  background-color: #9dc08b;
+}
+
+.navbar-right {
+  float: right;
+}
