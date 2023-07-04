@@ -6,7 +6,7 @@
 
 body {
   margin: 0 20rem;
-  background-color: #f8f6f4;
+  background-color: #F8F6F4;
 }
 
 .navbar {
@@ -16,7 +16,7 @@ body {
   position: fixed;
   top: 0;
   right: 20rem;
-  left: 20rem;
+  left: 20rem ;
 }
 
 .navbar a {
@@ -99,10 +99,8 @@ label {
   display: inline-block;
 }
 
-input[type="text"],
-input[type="email"],
-select,
-textarea {
+
+input[type=text], input[type=email], select, textarea {
   width: 100%;
   padding: 12px;
   border: 1px solid #ccc;
@@ -110,7 +108,7 @@ textarea {
   resize: vertical;
 }
 
-input[type="submit"] {
+input[type=submit] {
   background-color: #609966;
   color: white;
   padding: 12px 20px;
@@ -120,7 +118,7 @@ input[type="submit"] {
   float: right;
 }
 
-input[type="submit"]:hover {
+input[type=submit]:hover {
   background-color: #9dc08b;
 }
 
@@ -145,10 +143,14 @@ input[type="submit"]:hover {
 
 /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 600px) {
-  .col-25,
-  .col-75,
-  input[type="submit"] {
+  .col-25, .col-75, input[type=submit] {
     width: 100%;
     margin-top: 0;
   }
 }
+
+#company-pic-logo {
+  border-radius: 50%;
+  width: 16rem;
+}
+

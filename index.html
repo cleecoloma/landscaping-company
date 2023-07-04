@@ -21,7 +21,7 @@
       </nav>
     </header>
     <main>
-      <div class="container">
+      <div class="container-top">
         <!-- Background picture for this div is from https://unsplash.com/photos/vr_9IBUp9zg -->
         <h1 id="motto">
           Your Lawn, <br />
@@ -81,10 +81,15 @@
       </div>
       <div class="work-gallery"></div>
     </main>
-    <footer id="#contact">
+    <footer id="contact">
       <div>
         <div id="contact-info">
-          <p>Info goes here</p>
+          <div id="company-pic">
+            <img id="company-pic-logo" src="./assets/company-pic.jpg" alt="Picture of company">
+          </div>
+          <div class="company-about">
+            <p>Info goes here</p>
+          </div>
         </div>
         <div id="contact-form">
           <form action="" method="get">
@@ -93,7 +98,13 @@
                 <label for="name">Name</label>
               </div>
               <div class="75">
-                <input type="text" name="name" id="name" placeholder="Full Name..." required />
+                <input
+                  type="text"
+                  name="name"
+                  id="name"
+                  placeholder="Full Name..."
+                  required
+                />
               </div>
             </div>
             <div class="row">
@@ -101,7 +112,13 @@
                 <label for="">Email</label>
               </div>
               <div class="75">
-                <input type="email" name="email" id="email" placeholder="Email Address..." required />
+                <input
+                  type="email"
+                  name="email"
+                  id="email"
+                  placeholder="Email Address..."
+                  required
+                />
               </div>
             </div>
             <div class="row">
@@ -127,14 +144,14 @@
                   name="message"
                   id="message"
                   placeholder="Type message here..."
-                  style="height: 10rem;"
+                  style="height: 10rem"
                   required
                 ></textarea>
               </div>
             </div>
-            <br>
+            <br />
             <div class="row">
-              <input type="submit" value="Submit">
+              <input type="submit" value="Submit" />
             </div>
           </form>
         </div>
