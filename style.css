@@ -88,6 +88,22 @@ body {
   padding: 0.5rem;
 }
 
+#contact-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin: 10px 0 10px;
+}
+
+#contact-info {
+  justify-self: center;
+  padding-top: 20px;
+}
+
+.company-about {
+  justify-self: center;
+  padding-top: 20px;
+}
+
 #contact-form {
   background-color: rgb(228, 222, 222);
   border-radius: 4px;
