@@ -88,6 +88,10 @@ body {
   padding: 0.5rem;
 }
 
+#contact {
+  margin: 10px 30px 10px;
+}
+
 #contact-container {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -96,7 +100,7 @@ body {
 
 #contact-info {
   justify-self: center;
-  padding-top: 20px;
+  padding: 20px 10px 10px 20px;
 }
 
 .company-about {
