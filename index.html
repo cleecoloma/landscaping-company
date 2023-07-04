@@ -86,21 +86,48 @@
         <div id="contact-info"></div>
         <div id="contact-form">
           <form action="" method="get">
-            <div>
-              <label for="name">Name</label>
-              <input type="name" name="name" id="name" required/>
+            <div class="row">
+              <div class="col-25">
+                <label for="name">Name</label>
+              </div>
+              <div class="75">
+                <input type="text" name="name" id="name" placeholder="Full Name..." required />
+              </div>
             </div>
-            <div>
-              <label for="email">Email</label>
-              <input type="email" name="email" id="email" required/>
+            <div class="row">
+              <div class="col-25">
+                <label for="">Email</label>
+              </div>
+              <div class="75">
+                <input type="email" name="email" id="email" placeholder="Email Address..." required />
+              </div>
             </div>
-            <div>
-              <label for="phone-number">Phone Number</label>
-              <input type="phone-number" name="phone-number" id="phone-number" required/>
+            <div class="row">
+              <div class="col-25">
+                <label for="phone-number">Phone Number</label>
+              </div>
+              <div class="75">
+                <input
+                  type="text"
+                  name="phone-number"
+                  id="phone-number"
+                  placeholder="Phone Number..."
+                  required
+                />
+              </div>
             </div>
-            <div>
-              <label for="message">Message</label>
-              <input type="message" name="message" id="message" required/>
+            <div class="row">
+              <div class="col-25">
+                <label for="message">Message</label>
+              </div>
+              <div class="75">
+                <textarea
+                  name="message"
+                  id="message"
+                  placeholder="Type message here..."
+                  required
+                ></textarea>
+              </div>
             </div>
             <button type="submit">Submit</button>
           </form>
