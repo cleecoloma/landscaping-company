@@ -182,3 +182,20 @@ input[type=submit]:hover {
   width: 16rem;
 }
 
+footer {
+  background-color: #9dc08b;
+}
+
+.social-links {
+  text-align: center;
+  padding: 1rem 0 1rem;
+}
+
+.social-links > a {
+  padding: 0 0.5rem;
+}
+
+#created {
+  text-align: center;
+  padding-bottom: 1rem;
+}
