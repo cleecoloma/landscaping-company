@@ -11,7 +11,7 @@
 
 body {
   margin: 0 20rem;
-  background-color: #F8F6F4;
+  background-color: #f8f6f4;
 }
 
 .navbar {
@@ -21,7 +21,7 @@ body {
   position: fixed;
   top: 0;
   right: 20rem;
-  left: 20rem ;
+  left: 20rem;
 }
 
 .navbar a {
@@ -93,6 +93,31 @@ body {
   padding: 0.5rem;
 }
 
+#work {
+  margin-bottom: 1rem;
+}
+
+#work h2 {
+  text-align: center;
+  padding: 1rem 0;
+}
+
+.work-gallery {
+  line-height: 0;
+  -webkit-column-count: 3; /* split it into 5 columns */
+  -webkit-column-gap: 5px; /* give it a 5px gap between columns */
+  -moz-column-count: 3;
+  -moz-column-gap: 5px;
+  column-count: 3;
+  column-gap: 5px;
+}
+
+.work-gallery img {
+  width: 100% !important;
+  height: auto !important;
+  margin-bottom: 5px; /* to match column gap */
+}
+
 #contact {
   margin: 10px 30px 10px;
 }
@@ -129,8 +154,10 @@ label {
   display: inline-block;
 }
 
-
-input[type=text], input[type=email], select, textarea {
+input[type="text"],
+input[type="email"],
+select,
+textarea {
   width: 100%;
   padding: 12px;
   border: 1px solid #ccc;
@@ -142,7 +169,7 @@ textarea {
   height: 10rem;
 }
 
-input[type=submit] {
+input[type="submit"] {
   background-color: #609966;
   color: white;
   padding: 12px 20px;
@@ -152,7 +179,7 @@ input[type=submit] {
   float: right;
 }
 
-input[type=submit]:hover {
+input[type="submit"]:hover {
   background-color: #9dc08b;
 }
 
@@ -177,7 +204,9 @@ input[type=submit]:hover {
 
 /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 600px) {
-  .col-25, .col-75, input[type=submit] {
+  .col-25,
+  .col-75,
+  input[type="submit"] {
     width: 100%;
     margin-top: 0;
   }
