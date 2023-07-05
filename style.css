@@ -2,7 +2,12 @@
   box-sizing: border-box;
   padding: 0;
   margin: 0;
+  scroll-padding-top: 46px;
 }
+
+/* html {
+  scroll-padding-top: 46px;
+} */
 
 body {
   margin: 0 20rem;
@@ -101,6 +106,7 @@ body {
 #contact-info {
   justify-self: center;
   padding: 20px 10px 10px 20px;
+  margin: auto 0;
 }
 
 #company-pic {
