@@ -103,8 +103,12 @@ body {
   padding: 20px 10px 10px 20px;
 }
 
+#company-pic {
+  text-align: center;
+}
+
 .company-about {
-  justify-self: center;
+  text-align: center;
   padding-top: 20px;
 }
 
@@ -126,6 +130,10 @@ input[type=text], input[type=email], select, textarea {
   border: 1px solid #ccc;
   border-radius: 4px;
   resize: vertical;
+}
+
+textarea {
+  height: 10rem;
 }
 
 input[type=submit] {
