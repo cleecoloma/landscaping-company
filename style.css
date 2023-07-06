@@ -6,7 +6,7 @@
 }
 
 body {
-  margin: 0 20rem;
+  margin: 0 15rem;
   background-color: #f8f6f4;
 }
 
@@ -16,8 +16,8 @@ body {
   z-index: 100;
   position: fixed;
   top: 0;
-  right: 20rem;
-  left: 20rem;
+  right: 15rem;
+  left: 15rem;
 }
 
 .navbar a {
