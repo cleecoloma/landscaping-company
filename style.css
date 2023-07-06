@@ -2,7 +2,7 @@
   box-sizing: border-box;
   padding: 0;
   margin: 0;
-  scroll-padding-top: 46px;
+  scroll-padding-top: 50px;
 }
 
 body {
@@ -79,17 +79,23 @@ header {
   background-color: #edf1d6; /* Background color used when image is not available */
   background-size: cover;
   height: 37.5rem;
-  margin-top: 50.5px;
+  margin-top: 50px;
 }
 
 #motto {
-  /* position: absolute; */
-  top: 6rem;
+  position: absolute;
+  top: 8rem;
   left: 12rem;
   background-color: rgba(96, 153, 102, 0.8);
   border-radius: 8px;
   color: white;
   font-size: 5rem;
+}
+
+#motto-button {
+  position: absolute;
+  top: 26rem;
+  left: 12rem;
 }
 
 .button {
@@ -102,16 +108,7 @@ header {
   display: inline-block;
   font-size: 16px;
   border-radius: 6px;
-  /* position: absolute; */
   top: 25rem;
-}
-
-#services-button {
-  left: 12rem;
-}
-
-#work-button {
-  left: 21rem;
 }
 
 .button:hover {
@@ -300,21 +297,34 @@ footer {
     left: 5rem;
     right: 5rem;
   }
+
+  #motto {
+    left: 7rem;
+  }
+
+  #motto-button {
+    left: 7rem;
+  }
 }
 
-@media (max-width: 840px) {
+@media (max-width: 800px) {
   body {
-    margin: 0 2rem;
+    margin: 0 3rem;
   }
 
   .navbar {
-    left: 2rem;
-    right: 2rem;
+    left: 3rem;
+    right: 3rem;
   }
 
   #motto {
     font-size: 4rem;
-    top: 6.5rem;
+    left: 5rem;
+  }
+
+  #motto-button {
+    left: 5rem;
+    top: 22.5rem;
   }
 
   .title a {
