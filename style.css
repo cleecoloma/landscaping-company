@@ -255,14 +255,14 @@ input[type="submit"]:hover {
 }
 
 /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
-@media screen and (max-width: 600px) {
+/* @media screen and (max-width: 600px) {
   .col-25,
   .col-75,
   input[type="submit"] {
     width: 100%;
     margin-top: 0;
   }
-}
+} */
 
 #company-pic-logo {
   border-radius: 50%;
@@ -304,6 +304,16 @@ footer {
   #motto-button {
     left: 7rem;
   }
+
+  .work-gallery {
+  line-height: 0;
+  -webkit-column-count: 2; /* split it into 5 columns */
+  -webkit-column-gap: 5px; /* give it a 5px gap between columns */
+  -moz-column-count: 2;
+  -moz-column-gap: 5px;
+  column-count: 2;
+  column-gap: 5px;
+}
 }
 
 @media (max-width: 800px) {
@@ -323,15 +333,28 @@ footer {
 
   #motto-button {
     left: 5rem;
-    top: 22.5rem;
+    top: 22.75rem;
   }
 
   .title a {
     font-size: 1.5rem;
   }
+
+  .gallery6 {
+    display: none;
+  }
 }
 
 @media (max-width: 620px) {
+  body {
+    margin: 0 2.5rem;
+  }
+
+  .navbar {
+    left: 2.5rem;
+    right: 2.5rem;
+  }
+
   .toggle-button {
     display: flex;
   }
@@ -341,7 +364,7 @@ footer {
     width: 100%;
   }
 
-  .title{
+  .title {
     height: 50px;
     padding-top: 11px;
   }
@@ -361,10 +384,29 @@ footer {
   }
 
   .navbar-links li a {
-    padding: .5rem 1rem;
+    padding: 0.5rem 1rem;
   }
 
   .navbar-links.active {
     display: flex;
+  }
+
+  .container {
+    height: 30rem;
+  }
+
+  #motto {
+    font-size: 3rem;
+    left: 5rem;
+    top: 11rem;
+  }
+
+  #motto-button {
+    left: 5rem;
+    top: 22rem;
+  }
+
+  .gallery4, .gallery6 {
+    display: none;
   }
 }
