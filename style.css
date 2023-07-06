@@ -6,7 +6,7 @@
 }
 
 body {
-  margin: 0 15rem;
+  margin: 0 10rem;
   background-color: #f8f6f4;
 }
 
@@ -16,11 +16,10 @@ body {
   align-items: center;
   background-color: #609966;
   color: white;
-  z-index: 100;
   position: fixed;
   top: 0;
-  right: 15rem;
-  left: 15rem;
+  right: 10rem;
+  left: 10rem;
 }
 
 .title a {
@@ -51,6 +50,24 @@ body {
   background-color: #9dc08b;
 }
 
+.toggle-button {
+  position: absolute;
+  top: 0.9rem;
+  right: 0.75rem;
+  display: none;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 30px;
+  height: 21px;
+}
+
+.toggle-button .bar {
+  height: 3px;
+  width: 100%;
+  background-color: white;
+  border-radius: 10px;
+}
+
 .container {
   position: relative;
   text-align: left;
@@ -58,7 +75,7 @@ body {
   background-color: #edf1d6; /* Background color used when image is not available */
   background-size: cover;
   height: 37.5rem;
-  margin-top: 46px;
+  margin-top: 50.5px;
 }
 
 #motto {
@@ -268,4 +285,45 @@ footer {
 #created {
   text-align: center;
   padding-bottom: 1rem;
+}
+
+@media (max-width: 1300px) {
+  body {
+    margin: 0 5rem;
+  }
+
+  .navbar {
+    left: 5rem;
+    right: 5rem;
+  }
+}
+
+@media (max-width: 840px) {
+  body {
+    margin: 0 2rem;
+  }
+
+  .navbar {
+    left: 2rem;
+    right: 2rem;
+  }
+
+  #motto {
+    font-size: 4rem;
+    top: 6.5rem;
+  }
+
+  .title a {
+    font-size: 1.5rem;
+  }
+}
+
+@media (max-width: 620px) {
+  .toggle-button {
+    display: flex;
+  }
+
+  .navbar-links {
+    display: none;
+  }
 }
