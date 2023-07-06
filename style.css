@@ -363,6 +363,7 @@ footer {
   .navbar {
     left: 2.5rem;
     right: 2.5rem;
+    z-index: 100;
   }
 
   .toggle-button {
@@ -463,10 +464,9 @@ footer {
   }
 
   .service-card {
-  width: 20rem;
-  margin: 0 1rem 1rem;
-}
-
+    width: 20rem;
+    margin: 0 1rem 1rem;
+  }
 
   .service-img {
     height: 20rem;
@@ -494,10 +494,9 @@ footer {
   }
 
   .service-card {
-  width: 18rem;
-  margin: 0 1rem 1rem;
-}
-
+    width: 18rem;
+    margin: 0 1rem 1rem;
+  }
 
   .service-img {
     height: 18rem;
