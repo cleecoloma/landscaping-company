@@ -306,13 +306,13 @@ footer {
   }
 
   .work-gallery {
-  -webkit-column-count: 2; /* split it into 5 columns */
-  -webkit-column-gap: 2px; /* give it a 2px gap between columns */
-  -moz-column-count: 2;
-  -moz-column-gap: 2px;
-  column-count: 2;
-  column-gap: 2px;
-}
+    -webkit-column-count: 2; /* split it into 5 columns */
+    -webkit-column-gap: 2px; /* give it a 2px gap between columns */
+    -moz-column-count: 2;
+    -moz-column-gap: 2px;
+    column-count: 2;
+    column-gap: 2px;
+  }
 }
 
 @media (max-width: 800px) {
@@ -341,6 +341,17 @@ footer {
 
   .gallery6 {
     display: none;
+  }
+
+  #contact-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin: 10px 0 0;
+    padding: 10px 30px 10px;
+  }
+
+  #contact-form {
+    margin-top: 1rem;
   }
 }
 
@@ -405,16 +416,100 @@ footer {
     top: 22rem;
   }
 
-  .gallery4, .gallery6 {
+  .gallery4,
+  .gallery6 {
     display: none;
   }
 
   .work-gallery {
-  -webkit-column-count: 1; /* split it into 5 columns */
-  -webkit-column-gap: 2px; /* give it a 2px gap between columns */
-  -moz-column-count: 1;
-  -moz-column-gap: 2px;
-  column-count: 1;
-  column-gap: 2px;
+    -webkit-column-count: 1; /* split it into 5 columns */
+    -webkit-column-gap: 2px; /* give it a 2px gap between columns */
+    -moz-column-count: 1;
+    -moz-column-gap: 2px;
+    column-count: 1;
+    column-gap: 2px;
+  }
 }
+
+@media (max-width: 500px) {
+  body {
+    margin: 0 1.5rem;
+  }
+
+  .navbar {
+    left: 1.5rem;
+    right: 1.5rem;
+  }
+
+  .container {
+    height: 25rem;
+  }
+
+  #motto {
+    font-size: 2rem;
+    left: 3.5rem;
+    top: 9rem;
+  }
+
+  #motto-button {
+    left: 3.5rem;
+    top: 17rem;
+  }
+
+  .button {
+    padding: 10px 20px;
+    font-size: 14px;
+    border-radius: 6px;
+  }
+
+  .service-card {
+  width: 20rem;
+  margin: 0 1rem 1rem;
+}
+
+
+  .service-img {
+    height: 20rem;
+  }
+
+  .service-img img {
+    max-width: 100%;
+  }
+
+  .service-text {
+    text-align: center;
+    padding: 0.5rem;
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 500px) {
+  body {
+    margin: 0 1rem;
+  }
+
+  .navbar {
+    left: 1rem;
+    right: 1rem;
+  }
+
+  .service-card {
+  width: 18rem;
+  margin: 0 1rem 1rem;
+}
+
+
+  .service-img {
+    height: 18rem;
+  }
+
+  .service-img img {
+    max-width: 100%;
+  }
+
+  .service-text {
+    text-align: center;
+    padding: 0.5rem;
+    font-size: 12px;
+  }
 }
