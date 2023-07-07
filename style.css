@@ -253,10 +253,6 @@ input[type="submit"]:hover {
   width: 16rem;
 }
 
-footer {
-  background-color: #9dc08b;
-}
-
 .social-links {
   text-align: center;
   padding: 1rem 0 1rem;
@@ -266,9 +262,13 @@ footer {
   padding: 0 0.5rem;
 }
 
+footer {
+  background-color: #9dc08b;
+}
+
 #created {
   text-align: center;
-  padding-bottom: 1rem;
+  padding: 1rem 0;
 }
 
 /* Adjust CSS when screen size is 1300px and below */
