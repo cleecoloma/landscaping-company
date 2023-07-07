@@ -24,6 +24,7 @@ header {
   top: 0;
   right: 10rem;
   left: 10rem;
+  z-index: 100;
 }
 
 .title a {
@@ -481,9 +482,14 @@ footer {
     padding: 0.5rem;
     font-size: 12px;
   }
+
+  #contact-container {
+    margin: 10px 0 0;
+    padding: 10px 20px 10px;
+  }
 }
 
-@media (max-width: 500px) {
+@media (max-width: 420px) {
   body {
     margin: 0 1rem;
   }
@@ -493,22 +499,80 @@ footer {
     right: 1rem;
   }
 
+  #motto {
+    font-size: 2rem;
+    left: 3rem;
+  }
+
+  #motto-button {
+    left: 3rem;
+  }
+
   .service-card {
-    width: 18rem;
-    margin: 0 1rem 1rem;
+    width: 20rem;
+    margin: 0 0.5rem 1rem;
   }
 
   .service-img {
     height: 18rem;
   }
 
-  .service-img img {
-    max-width: 100%;
+  #contact-container {
+    padding: 10px 10px 10px;
+  }
+
+  #contact-form {
+    border-radius: 8px;
+    padding: 10px;
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 350px) {
+  body {
+    margin: 0 0.5rem;
+  }
+
+  .navbar {
+    left: 0.5rem;
+    right: 0.5rem;
+  }
+
+  #motto {
+    font-size: 1.75rem;
+    left: 2.5rem;
+    top: 10rem;
+  }
+
+  #motto-button {
+    left: 2.5rem;
+  }
+
+  .service-card {
+    width: 20rem;
+    margin: 0 0 1rem;
+  }
+
+  .service-img {
+    height: 16rem;
   }
 
   .service-text {
-    text-align: center;
     padding: 0.5rem;
-    font-size: 12px;
+    font-size: 10px;
+  }
+
+  #contact-container {
+    margin: 10px 0 0;
+    padding: 10px 10px 10px;
+  }
+
+  .company-about {
+    font-size: 14px;
+  }
+
+  #contact-form {
+    border-radius: 8px;
+    padding: 10px;
   }
 }
