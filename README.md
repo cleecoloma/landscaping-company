@@ -1,4 +1,4 @@
-# Lawn-Landing-Page
+# Landscaping Company
 > This is a landing page for a lawn company. The web page is made from html, css, and javascript. This webpage is responsive and will adjust to screen sizes from desktops to mobile phones.
 
 ## There are six sections of this landing page
