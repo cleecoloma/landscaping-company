@@ -282,6 +282,10 @@ footer {
     right: 5rem;
   }
 
+  .title a {
+    font-size: 1.5rem;
+  }
+
   #motto {
     left: 7rem;
   }
@@ -303,12 +307,12 @@ footer {
 /* Adjust CSS when screen size is 800px and below */
 @media (max-width: 800px) {
   body {
-    margin: 0 3rem;
+    margin: 0 2.75rem;
   }
 
   .navbar {
-    left: 3rem;
-    right: 3rem;
+    left: 2.75rem;
+    right: 2.75rem;
   }
 
   #motto {
@@ -322,7 +326,7 @@ footer {
   }
 
   .title a {
-    font-size: 1.5rem;
+    font-size: 1.25rem;
   }
 
   .gallery6 {
@@ -341,8 +345,8 @@ footer {
   }
 }
 
-/* Adjust CSS when screen size is 620px and below */
-@media (max-width: 620px) {
+/* Adjust CSS when screen size is 640px and below */
+@media (max-width: 640px) {
   body {
     margin: 0 2.5rem;
   }
@@ -487,13 +491,18 @@ footer {
     right: 1rem;
   }
 
+    .title a {
+    margin-left: 1.25rem;
+  }
+
+
   #motto {
     font-size: 2rem;
-    left: 3rem;
+    left: 2rem;
   }
 
   #motto-button {
-    left: 3rem;
+    left: 2rem;
   }
 
   .service-card {
@@ -529,12 +538,12 @@ footer {
 
   #motto {
     font-size: 1.75rem;
-    left: 2.5rem;
+    left: 1.25rem;
     top: 10rem;
   }
 
   #motto-button {
-    left: 2.5rem;
+    left: 1.25rem;
   }
 
   .service-card {
